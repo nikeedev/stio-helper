@@ -1,0 +1,34 @@
+{
+  "name": "stio-helper",
+  "displayName": "stio_helper",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "nikeedev",
+  "author": {
+    "name": "nikeedev",
+    "email": "nikita.gon.dev@gmail.com",
+    "url": "https://nikeedev.github.io"
+  },
+  "repository": {
+    "url": "https://github.com/nikeedev/stio-helper"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "stio",
+      "aliases": ["StioStudio", "stio"],
+      "extensions": [".stio", ".stio_studio"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "stio",
+      "scopeName": "",
+      "path": "./syntaxes/stio.tmLanguage.json"
+    }]
+  }
+}
